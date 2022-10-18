@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@700&display=swap");
+
+@layer components {
+  .my-banner-title {
+    @apply md:text-8xl text-6xl font-body text-shadow;
+  }
+  .my-banner-subtitle {
+    @apply md:text-6xl text-4xl font-body text-shadow;
+  }
+  .my-title {
+    @apply text-5xl font-body;
+  }
+  .my-text {
+    @apply md:text-lg text-sm font-body;
+  }
+  .my-menutext {
+    @apply text-2xl font-body
+  }
+  .my-button {
+    @apply transition duration-500 ease-in-out
+  }
+  .paragraph-container {
+    @apply container mx-auto max-w-3xl mt-10
+  }
+}
+
+.text-shadow {
+  text-shadow: 2px 2px 5px black;
+}
